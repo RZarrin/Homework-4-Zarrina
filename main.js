@@ -9,7 +9,8 @@ if((c < a && a < b) || (c > a && a > b)){
 }else if((a < b && b < c) || (a > b && b > c)){
     console.log(b +' третье число среднее');
 }else{
-    console.log(b +' третье число среднее');
+    console.log('Error!!!');
+    alert('Error!!!');
 }  
 
 
